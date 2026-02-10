@@ -65,7 +65,7 @@ function generateMessage(noCount) {
 function changeImage(image) {
   img.src =
     image === "yes"
-      ? "https://media.tenor.com/ACi1vdjNbpIAAAAi/%EC%9C%A0%ED%83%80-%ED%86%A4%ED%86%A4%ED%94%84%EB%A0%8C%EC%A6%88.gif"
+      ? "blob:https://www.facebook.com/8d96034a-8c09-498f-b9df-c3f00cf9d6f8"
       : tontonGifs[image];
 }
 
