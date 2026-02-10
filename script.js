@@ -53,10 +53,11 @@ function generateMessage(noCount) {
   const messages = [
     "No 😔",
     "Are you sure? 🥺",
-    "Pookie please 🥹",
-    "Don't do this to me 😭",
-    "You're breaking my heart 💔",
-    "I'm gonna cry... 😭💔",
+    "Ayaw mo ba saken 🥹",
+    "Sigi na po bebi 😭",
+    "Ansakit mo 💔",
+    "Naiiyak na ako... 😭💔",
+    "Ayaw mo na ba talaga sakin 😭💔",
   ];
   return messages[Math.min(noCount, messages.length - 1)];
 }
