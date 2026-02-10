@@ -65,7 +65,7 @@ function generateMessage(noCount) {
 function changeImage(image) {
   img.src =
     image === "yes"
-      ? "blob:https://www.facebook.com/8d96034a-8c09-498f-b9df-c3f00cf9d6f8"
+      ? "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2txcnJjODBhMTlvMWxybTJ3M2tpYmNtbzI1emtnaTA4ZXFzNDd3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ANjMpBvC9LeRUopsoU/giphy.gif"
       : tontonGifs[image];
 }
 
